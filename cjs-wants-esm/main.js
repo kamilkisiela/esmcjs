@@ -1,2 +1,1 @@
-const {get} = require('got');
-console.log(get);
+import('got').then(({ get }) => console.log(get));
